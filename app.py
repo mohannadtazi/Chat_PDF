@@ -36,7 +36,7 @@ def load_pdf(url):
 #-----------------------------------------------------
 
 
-
+st.set_page_config(page_title="Ask Ur Tutor", page_icon="📖")
 st.title("I am Your Tutor, Don't Hesitate to Ask Me Anything!")
 
 if 'message' not in st.session_state:
